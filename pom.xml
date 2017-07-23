@@ -11,8 +11,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<scala-maven-plugin.version>3.2.2</scala-maven-plugin.version>
-		<scalaVersion>2.11.8</scalaVersion>
-		<scalaBinaryVersion>2.11</scalaBinaryVersion>
+		<scalaVersion>2.11.0</scalaVersion>
 	</properties>
 
 	<dependencies>
@@ -21,6 +20,22 @@
 			<artifactId>scala-library</artifactId>
 			<version>${scalaVersion}</version>
 		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-library</artifactId>
+			<version>${scalaVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-reflect</artifactId>
+			<version>${scalaVersion}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.scala-lang</groupId>
+			<artifactId>scala-compiler</artifactId>
+			<version>${scalaVersion}</version>
+		</dependency>
+
 	</dependencies>
 
 	<build>
